@@ -27,6 +27,11 @@ public class WarriorsPageActions extends ReusableLibrary {
         actionsUtil.clickOnElement(lineNumber, warriorsPageObjects.btn_ClosePopUp,"Button","Close");
     }
 
+    public boolean getJacketsPages()
+    {
+        return warriorsPageObjects.li_JacketsPages.size()>0;
+    }
+
     public void clickOnMoreMenus(int lineNumber) {
         actionsUtil.clickOnElement(lineNumber, warriorsPageObjects.lnk_MoreMenus,"Link Text","More Menus");
     }

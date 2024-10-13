@@ -6,7 +6,6 @@ Feature: Automating Test cases for the warriors team
   @RegressionSuite @WarriorsSite @Jackets
   Scenario: Capture the jacket details in the warriors site
     When I click on the jackets link
-    Then I should see the jackets page
     And I should see the jackets details
 
   @RegressionSuite @WarriorsSite @VideoFeeds

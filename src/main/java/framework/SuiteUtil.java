@@ -1,5 +1,6 @@
 package framework;
 
+import lombok.SneakyThrows;
 import lombok.experimental.UtilityClass;
 
 import java.io.File;
@@ -78,5 +79,11 @@ public class SuiteUtil {
     public String getExtentReportLogs()
     {
         return resultsPath+"//Reports//ExtentReportLogs.txt";
+    }
+
+    @SneakyThrows
+    public void applySleep(long sec)
+    {
+        Thread.sleep(sec);
     }
 }
