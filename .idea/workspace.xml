@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="dbb932ad-1b6f-4630-bacb-33c81cd47931" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/framework/ActionsUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/framework/BrowserUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/framework/FrameworkException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/framework/Loggers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/framework/PropertiesUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/framework/Reports.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/framework/ReusableLibrary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/framework/SuiteUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/framework/TestUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/business/BullsBusiness.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/business/SixersBusiness.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/business/WarriorsBusiness.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pageActions/BullsPageActions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pageActions/SixersPageActions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pageActions/WarriorsPageActions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pageObjects/BasePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pageObjects/BullsPages.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pageObjects/SixersPages.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pageObjects/WarriorsPages.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/runners/TestRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/BullsStepDefs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/Hook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/LaunchApplications.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/SixersStepDefs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/WarriorsStepDef.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/testCases/TestCases.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/CP.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/DP1.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/DP2.feature" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 0
+}]]></component>
+  <component name="ProjectId" id="2nIUJH6xdvCD1rKSNU89ah5zccG" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TestNG.TestCases.firstTestCase.executor": "Run",
+    "TestNG.TestCases.fourthTestCase.executor": "Run",
+    "TestNG.TestCases.performSecondTestCase.executor": "Run",
+    "TestNG.TestCases.performThirdTestCase.executor": "Run",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/Veeva_Assignment/NBA_Veeva_Assignment/src/test/resources",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Veeva_Assignment\NBA_Veeva_Assignment\src\test\resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.TestCases.firstTestCase">
+    <configuration name="TestCases.firstTestCase" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="NBA_Veeva_Assignment" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testCases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testCases" />
+      <option name="MAIN_CLASS_NAME" value="testCases.TestCases" />
+      <option name="METHOD_NAME" value="firstTestCase" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestCases.fourthTestCase" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="NBA_Veeva_Assignment" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testCases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testCases" />
+      <option name="MAIN_CLASS_NAME" value="testCases.TestCases" />
+      <option name="METHOD_NAME" value="fourthTestCase" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestCases.performSecondTestCase" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="NBA_Veeva_Assignment" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testCases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testCases" />
+      <option name="MAIN_CLASS_NAME" value="testCases.TestCases" />
+      <option name="METHOD_NAME" value="performSecondTestCase" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestCases.performThirdTestCase" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="NBA_Veeva_Assignment" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testCases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testCases" />
+      <option name="MAIN_CLASS_NAME" value="testCases.TestCases" />
+      <option name="METHOD_NAME" value="performThirdTestCase" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.TestCases.firstTestCase" />
+        <item itemvalue="TestNG.TestCases.performSecondTestCase" />
+        <item itemvalue="TestNG.TestCases.performThirdTestCase" />
+        <item itemvalue="TestNG.TestCases.fourthTestCase" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-28b599e66164-intellij.indexing.shared.core-IU-242.23339.11" />
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-IU-242.23339.11" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="dbb932ad-1b6f-4630-bacb-33c81cd47931" name="Changes" comment="" />
+      <created>1728660011543</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1728660011543</updated>
+      <workItem from="1728660012565" duration="21902000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/testCases/TestCases.java</url>
+          <line>46</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/testCases/TestCases.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
