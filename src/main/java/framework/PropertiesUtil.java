@@ -64,5 +64,9 @@ public class PropertiesUtil {
         return getProperty("BrowserClose");
     }
 
+    public String getHeadlessTest()
+    {
+        return getProperty("HeadlessTest");
+    }
 
 }

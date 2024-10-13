@@ -23,8 +23,17 @@ public class WarriorsPageActions extends ReusableLibrary {
         actionsUtil.clickOnElement(lineNumber, warriorsPageObjects.lnk_Jackets,"Link Text","Jackets");
     }
 
+    public void clickOnClose(int lineNumber) {
+        actionsUtil.clickOnElement(lineNumber, warriorsPageObjects.btn_ClosePopUp,"Button","Close");
+    }
+
     public void clickOnMoreMenus(int lineNumber) {
         actionsUtil.clickOnElement(lineNumber, warriorsPageObjects.lnk_MoreMenus,"Link Text","More Menus");
+    }
+
+
+    public void hoverOnMoreMenus(int lineNumber) {
+        actionsUtil.moveToElement(lineNumber, warriorsPageObjects.lnk_MoreMenus,"More Menus");
     }
 
     public void clickOnNewsAndFeatures(int lineNumber) {
@@ -34,5 +43,10 @@ public class WarriorsPageActions extends ReusableLibrary {
     public boolean getVideosGreaterThanThreeDays()
     {
         return warriorsPageObjects.lnk_VideosOlderThanThreeDays.size()>0;
+    }
+
+    public void navigateToVideosSection(int lineNumber)
+    {
+        actionsUtil.moveToElement(lineNumber, warriorsPageObjects.fld_Videos,"Videos");
     }
 }

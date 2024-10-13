@@ -11,7 +11,7 @@ public class SixersBusiness extends ReusableLibrary {
 
     public void navigateThroughSlides()
     {
-        if(sixersPageActions.navigateToLeftCompletly())
+        while(!sixersPageActions.navigateToLeftCompletly())
         {
             sixersPageActions.clickOnMoveLeft(Thread.currentThread().getStackTrace()[1].getLineNumber());
         }

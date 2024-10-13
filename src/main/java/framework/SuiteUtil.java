@@ -75,4 +75,8 @@ public class SuiteUtil {
         return sw.toString();
     }
 
+    public String getExtentReportLogs()
+    {
+        return resultsPath+"//Reports//ExtentReportLogs.txt";
+    }
 }

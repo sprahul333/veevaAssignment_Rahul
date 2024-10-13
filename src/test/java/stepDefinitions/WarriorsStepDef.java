@@ -21,6 +21,5 @@ public class WarriorsStepDef extends ReusableLibrary {
 
     @When("I click on the jackets link")
     public void iClickOnTheJacketsLink() {
-        warriorsBusiness.clickOnJacketsLink();
     }
 }

@@ -45,4 +45,6 @@ public class WarriorsPages extends BasePage {
     @FindBy(xpath = "//h3[text()='VIDEOS']/../following-sibling::div/descendant::span[text()='3d']")
     public List<WebElement> lnk_VideosOlderThanThreeDays;
 
+    @FindBy(xpath = "//h3[text()='VIDEOS']")
+    public WebElement fld_Videos;
 }

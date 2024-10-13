@@ -9,17 +9,20 @@ public class WarriorsBusiness extends ReusableLibrary {
 
     public void clickOnVideoFeedLink()
     {
-        warriorsPageActions.clickOnMoreMenus(Thread.currentThread().getStackTrace()[1].getLineNumber());
+        warriorsPageActions.clickOnClose(Thread.currentThread().getStackTrace()[1].getLineNumber());
+        warriorsPageActions.hoverOnMoreMenus(Thread.currentThread().getStackTrace()[1].getLineNumber());
         warriorsPageActions.clickOnNewsAndFeatures(Thread.currentThread().getStackTrace()[1].getLineNumber());
     }
 
     public void verifyVideoFeedPage()
     {
+        warriorsPageActions.navigateToVideosSection(Thread.currentThread().getStackTrace()[1].getLineNumber());
         warriorsPageActions.getVideosGreaterThanThreeDays();
     }
 
     public void navigateToJacketsLink()
     {
+        warriorsPageActions.clickOnClose(Thread.currentThread().getStackTrace()[1].getLineNumber());
         warriorsPageActions.clickOnShop(Thread.currentThread().getStackTrace()[1].getLineNumber());
         warriorsPageActions.clickOnMen(Thread.currentThread().getStackTrace()[1].getLineNumber());
 

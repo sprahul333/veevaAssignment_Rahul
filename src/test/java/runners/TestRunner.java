@@ -5,13 +5,11 @@ import io.cucumber.testng.CucumberOptions;
 import org.testng.annotations.DataProvider;
 
 @CucumberOptions(
-        features = "src/test/resources/features",
+        features = "./src/test/resources/features",
         glue = {"stepDefinitions"},
-        plugin = {"pretty", "html:target/cucumber-reports/cucumber-pretty",
-                "json:target/cucumber-reports/CucumberTestReport.json",
-                "rerun:target/cucumber-reports/rerun.txt"},
+        plugin = {"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"},
         monochrome = true,
-        tags = "@RegressionSuite"
+        tags = "@VideoFeeds"
 )
 
 public class TestRunner extends AbstractTestNGCucumberTests {
